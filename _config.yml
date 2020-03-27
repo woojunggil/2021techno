@@ -2,7 +2,7 @@
 
 # Website settings
 title: Repository of the literature repo
-description: Yebeen.
+description: Yebeen
 keywords: Yebeen, datascience
 baseurl: / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://datacheff.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
@@ -14,7 +14,7 @@ author:  KIM YE BEEN # change following line to your infomation.
   name: KIM YE BEEN  # Be used at blog posts' author.
   first_name: KIM  # Be used at index page about me section.
   last_name: YE BEEN  # Be used at index page about me section.
-  avatar: datacheff.github.io/static/assets/img/landing/yebeen.jpg  # upload your avatar at directory and edit it.
+  avatar: /datacheff.github.io/static/assets/img/landing/yebeen.jpg  # upload your avatar at directory and edit it.
   github_username: jarrekk  # Leave blank if you don't have now
   linkedin_id: jarrekk # Leave blank if you don't have now
   facebook_username: jiakunnj  # Leave blank if you don't have now
