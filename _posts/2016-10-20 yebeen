@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: python
 title: "yebeen"
 date:  2016-10-20
 desc: "Quick test on writing code snippets in a blog post"
 keywords: "add up to a specific target, dic , leet"
-categories: [ Python ]
+categories: [python]
 tags: [add up to a specific target, dic , leet]
 icon: icon-html
 ---
