@@ -1,0 +1,90 @@
+---
+layout: post
+title:  "leet-코딩-연습"
+date:   2017-12-21
+desc: "Quick test on writing code snippets in a blog post"
+keywords: "add up to a specific target, dic , leet"
+categories: [blog]
+tags: [add up to a specific target, dic , leet]
+icon: icon-html
+---
+
+![leetcode](https://user-images.githubusercontent.com/48639285/88495650-85fb5680-cff5-11ea-8a30-fcc2c91ee0c9.png){: width="260" height="100"}{: .aligncenter}
+<br>
+<br>
+> # Shuffle the Array : 몫이랑 나머지로 반 나눠서 array 재배열 하는 코딩
+
+### Python
+
+💡Example:
+
+Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
+
+Return the array in the form [x1,y1,x2,y2,...,xn,yn].
+
+Input: nums = [2,5,1,3,4,7], n = 3
+Output: [2,3,5,4,1,7] 
+Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,4,1,7].
+
+
+```
+class Solution:
+    def shuffle(self, nums: List[int], n: int) -> List[int]:
+        new=[]
+        for i in range(2*n):
+            new.append(nums[i // 2 + i % 2 * n])
+        return new
+
+                
+```                
+
+<br>                     
+<br>    
+              
+
+> # 중복없는 알파벳 가장 긴 서브스트링 개수 반환
+
+### Python
+
+💡 Example:     
+ Input: "abcabcbb"   
+ Output: 3     
+ Explanation: The answer is "abc", with the length of 3.      
+
+<br>
+<br>
+💡 Example 2:     
+Input: "pwwkew"        
+Output: 3         
+Explanation: The answer is "wke", with the length of 3.       
+              Note that the answer must be a substring, "pwke" is a subsequence and not a substring.  
+
+<br>
+
+
+```
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        
+        start = maxLength = 0
+        usedChar = {}
+        
+        for i in range(len(s)): 
+         #문자 i개
+            if s[i] in usedChar and start <= usedChar[s[i]]: 
+            #usedchar에 s[i]가 있고 usedchar가 start보다 큰 경우
+                start = usedChar[s[i]] +1  
+                #다음부터 start함.
+            else:
+                maxLength = max(maxLength, i - start +1)  
+                #아닐경우 maxlength에 i- start+1나 지금까지의 maxlength를 넣음
+
+            usedChar[s[i]] = i 
+            #usedchar 알파벳에 몇번째인지 넣음.
+
+        return maxLength
+    
+    
+
+
+```
