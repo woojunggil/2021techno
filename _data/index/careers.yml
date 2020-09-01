@@ -35,19 +35,19 @@
     detail: LG AI , DATA CAMP assistant
     i18n: company_a
   desc:
-    detail: - Helping LG employee participants with projects and coding
-            - Answer questions from participants and operation support
-            - Digital transformation related to AI and Data content research 
-            - Curriculum and content evaluation/analysis (data-based)
+    detail: Helping LG employee participants with projects and coding
+            Answer questions from participants and operation support
+            Digital transformation related to AI and Data content research 
+            Curriculum and content evaluation/analysis (data-based)
             [AI CAMP]
-            - Visualization AI
-            - Natural language processing
-            - System Intelligence
-            - Deep learning to control dynamic System
-            - Practicing and project with tensorflow and Pytorch
+            Visualization AI
+            Natural language processing
+            System Intelligence
+            Deep learning to control dynamic System
+            Practicing and project with tensorflow and Pytorch
             [DATA CAMP]
-            - Machine learning
-            - Statistical Modeling
+            Machine learning
+            Statistical Modeling
     i18n: company_a_desc
   date:
     detail: 2020.06-2020.08
