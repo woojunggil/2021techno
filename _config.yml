@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: YEBEEN KIM | kyeb98@naver.com | B.S. in Industiral Engineering, Hanyang University.  # Describe yourself.
+  desc: YEBEEN KIM | kyeb98@naver.com | B.S. in Industiral Engineering & Big data convergence, Hanyang University.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
