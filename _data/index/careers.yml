@@ -4,8 +4,7 @@
     detail: Education
     i18n: company_a
   desc:
-    detail: 
-            Hanyang University (Seoul) 
+    detail: Hanyang University (Seoul) 
             Double major in Industrial Engineering 
             and Big data Convergence 
     i18n: company_a_desc
@@ -32,7 +31,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   
-  - name:
+- name:
     detail: LG AI , DATA CAMP assistant
     i18n: company_a
   desc:
