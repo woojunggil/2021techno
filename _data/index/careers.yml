@@ -4,9 +4,9 @@
     detail: Education
     i18n: company_a
   desc:
-    detail: Hanyang University (Seoul) 
-            Double major in Industrial Engineering 
-            and Big data Convergence 
+    detail: Hanyang University (Seoul)  <br>
+            Double major in Industrial Engineering  <br>
+            and Big data Convergence  <br>
     i18n: company_a_desc
   date:
     detail: 2017.03 - 2021.03(Expected Graduation Date)
@@ -35,19 +35,19 @@
     detail: LG AI , DATA CAMP assistant
     i18n: company_a
   desc:
-    detail: Helping LG employee participants with projects and coding
-            Answer questions from participants and operation support
-            Digital transformation related to AI and Data content research 
-            Curriculum and content evaluation/analysis (data-based)
-            [AI CAMP]
-            Visualization AI
-            Natural language processing
-            System Intelligence
-            Deep learning to control dynamic System
-            Practicing and project with tensorflow and Pytorch
-            [DATA CAMP]
-            Machine learning
-            Statistical Modeling
+    detail: Helping LG employee participants with projects and coding <br>
+            Answer questions from participants and operation support <br>
+            Digital transformation related to AI and Data content research  <br>
+            Curriculum and content evaluation/analysis (data-based) <br>
+            [AI CAMP] <br>
+            Visualization AI <br>
+            Natural language processing <br>
+            System Intelligence <br>
+            Deep learning to control dynamic System <br>
+            Practicing and project with tensorflow and Pytorch <br>
+            [DATA CAMP] <br>
+            Machine learning <br>
+            Statistical Modeling <br>
     i18n: company_a_desc
   date:
     detail: 2020.06-2020.08
@@ -62,7 +62,7 @@
     detail: Awards
     i18n: company_b
   desc:
-    detail: Smart Factory Big Data Competition 
+    detail: Smart Factory Big Data Competition  <br>
             (manage- LINC+, Hanyang University)
     i18n: company_b_desc
   date:
