@@ -1,30 +1,75 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: Education
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: 
+            Hanyang University (Seoul) 
+            Double major in Industrial Engineering 
+            and Big data Convergence 
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: 2017.03 - 2021.03(Expected Graduation Date)
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: B.S.
     i18n: company_a_job
   icon: fa-plus-square
   present: true
 
 - name:
-    detail: Company B
+    detail: Certificate
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: The 22nd Advanced Data Analytics Semi-Professional (ADsP)
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: Oct. 2019
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: Data science
+    i18n: company_b_job
+  icon: fa-plus-square
+  
+  - name:
+    detail: LG AI , DATA CAMP assistant
+    i18n: company_a
+  desc:
+    detail: - Helping LG employee participants with projects and coding
+            - Answer questions from participants and operation support
+            - Digital transformation related to AI and Data content research 
+            - Curriculum and content evaluation/analysis (data-based)
+            [AI CAMP]
+            - Visualization AI
+            - Natural language processing
+            - System Intelligence
+            - Deep learning to control dynamic System
+            - Practicing and project with tensorflow and Pytorch
+            [DATA CAMP]
+            - Machine learning
+            - Statistical Modeling
+    i18n: company_a_desc
+  date:
+    detail: 2020.06-2020.08
+    i18n: company_a_date
+  job:
+    detail: Programming & project assistant
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Awards
+    i18n: company_b
+  desc:
+    detail: Smart Factory Big Data Competition 
+            (manage- LINC+, Hanyang University)
+    i18n: company_b_desc
+  date:
+    detail: Nov. 2019
+    i18n: company_b_date
+  job:
+    detail: grand prize(1) 
     i18n: company_b_job
   icon: fa-plus-square
