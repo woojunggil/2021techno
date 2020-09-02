@@ -13,7 +13,7 @@
   url: https://google.com
   img: /static/assets/img/landing/pro2.png
   desc: <li> Collecting the data of price, displacement, fuel efficiency, fuel type, quality assurance, parking aid functions, driving safety functions, static driving functions, seat materials, air conditioning, room mirror and headlamps on several cars. </li> <br>
-        <li> Using Random Forest method and create good trees with hyperparameter tuning and predict sales for new cars with Python
+        <li> Using Random Forest method and create good trees with hyperparameter tuning and predict sales for new cars with Python <br> <br> <br>
 
 
 - name: A Study on the Graph-Based Problem Solving Method to Find the Optimal Route in the Delivery System
@@ -51,7 +51,7 @@
   i18n: google
   url: https://google.com
   img: /static/assets/img/landing/pro7.png
-  desc:  <li> Using POS Tagging for nouns that indicate cause of concern, adjectives that indicate emotion, and verbs that indicate behavior and stemmings. And I made my own stopword dictionary removed the stopwords. In order to make the chatbot recognize the category of concern and provide the right comfort, 39 categories were classified, and important words were extracted for each category by calculating tf-idf. Making the chatbot application that recognizes the category of concern and comforts by Android studio. </li> <br>
+  desc:  <li> Using POS Tagging for nouns that indicate cause of concern, adjectives that indicate emotion, and verbs that indicate behavior and stemmings. And I made my own stopword dictionary removed the stopwords. In order to make the chatbot recognize the category of concern and provide the right comfort, 39 categories were classified, and important words were extracted for each category by calculating tf-idf. Making the chatbot application that recognizes the category of concern and comforts by Android studio. </li> <br> <br> <br> <br> <br> <br> <br>
 
 - name: Estimation of Lifetime Distribution of Conveyor Belt in Optimized and Unoptimized System
   i18n: google
