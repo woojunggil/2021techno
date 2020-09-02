@@ -1,22 +1,76 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
+- name: Analyzing and Predicting the correct answer rate of Korean scholastic ability test with problem criteria
   i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
+  url: https://google.com
   img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+  desc: <li> Collecting the data of the problem type, the number of sentences, the number of words, the number of letters, linkage of EBS, contents, unit, and detail unit from the test paper of the Korean College Scholastic Ability Test </li> <br>
+<li> Making a multiple regression analysis model to analyze important factors related to the correct answer rate and to predict the correct answer rate.
 
-- name: Python
+- name: Probability Statistics Study on Factors Affecting Car Sales
   i18n: cpython
-  gh_user: python
-  repo: cpython
+  url: https://google.com
   img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+  desc: <li> Collecting the data of price, displacement, fuel efficiency, fuel type, quality assurance, parking aid functions, driving safety functions, static driving functions, seat materials, air conditioning, room mirror and headlamps on several cars. </li> <br>
+<li> Using Random Forest method and create good trees with hyperparameter tuning and predict sales for new cars with Python
 
-- name: Google
+
+- name: A Study on the Graph-Based Problem Solving Method to Find the Optimal Route in the Delivery System
   i18n: google
   url: https://google.com
   img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  desc: <li>  Pointing out the problem of the methodology for shipping routes from sub-terminal to each shipping destination and experimenting with the problem-solving method to minimize the total operating cost of the system for shipping multiple vehicles in a certain area. </li> <br>
+<li>  The weight is calculated by the average speed with the traffic situation (traffic congestion, crawling, smooth) for each route, fuel consumption weight considering the package weight, and the right turn over the left turn (right turn does not stop at red light. The weight was calculated by considering the reduction effect.). </li> <br>
+<li> Applying Kruskal algorithm and multi-extra algorithm, prim method, and Floyd method with considering the weight to code. </li> <br>
+
+- name: Big Data mining for detecting causes of errors in High Rack Storage System (HRSS)
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: <li>  Decision trees and artificial neural networks were used to predict failures and explore defective conveyors using voltage, power and distance data obtained from each part of the conveyor belt. </li> <br>
+<li>  Making process cycle data assuming zero distance data is the beginning of a cycle and using oversampling methods for the data imbalance that the failure data are much fewer than the success data </li> <br>
+
+
+- name: Concrete compressive strength regression analysis
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: <li>  Most of the cracks are caused by the material properties of concrete that is used by mixing cement, water and aggregate, but the standard for the cement mixing ratio is not clear in the construction standards. So, I used Cement, Blast Furnace Slag, Fly Ash, Water, Superplasticizer, Coarse Aggregate, Fine Aggregate, hardening time data as independent variables and concrete compressive strength as dependent variables to use regression analysis. And I checked the assumptions of normality, Independence of errors, homoscedasticity, and absence of multicollinearity. </li> <br>
+
+- name: Developing delivery agency web service '한양의 민족' using Python Flask and MySQL.
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: <li>  Modeling database of sellers, buyers and delivery man data with MySQL and make web service with python Flask.  </li> <br>
+<li>  When the users log in, the pages appear depending on whether the person is the seller, the buyer, or the delivery man. Sellers can see the store information, menu information, the number of orders, buyer contact, order time and payment method. And sellers can change, add, and delete the menu name and price. The page that assigns current order to a delivery man who satisfied deliverable status and region. There are also pages to cancel the purchase.  </li> <br>
+<li>  Buyers can search for the store by region or name on the purchase screen. And buyers can add to cart and buy. Buyers can check the total number of menus, payment method, order time, and delivery completion on the order screen. </li> <br>
+<li>  Delivery men can update delivery completion. All users can change their information. </li> <br>
+
+- name: Making a comfort chatbot android application using text mining.
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc:  <li> Using POS Tagging for nouns that indicate cause of concern, adjectives that indicate emotion, and verbs that indicate behavior and stemmings. And I made my own stopword dictionary removed the stopwords. In order to make the chatbot recognize the category of concern and provide the right comfort, 39 categories were classified, and important words were extracted for each category by calculating tf-idf. Making the chatbot application that recognizes the category of concern and comforts by Android studio. </li> <br>
+
+- name: Estimation of Lifetime Distribution of Conveyor Belt in Optimized and Unoptimized System
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: <li>  I added data on the left censoring data for the time being turned into a failure and added right censoring data when normal. Then I made my own algorithm to restart at the beginning of a new cycle and create censoring data.  </li> <br>
+<li> Assuming the exponential distribution, wibble distribution, and algebraic normal distribution as life distribution and estimating the parameter by maximum likehood estimations. And I compared which was suitable by AIC and BIC. This was done with the optimized conveyor belt and the unoptimized conveyor belt respectively. I analysis by making code log-likelihood function directly and ftdistcens, ftdistrplus package.  </li> <br>
+
+- name: A study on the method of recognition unseen handwritten chinese character using detecting radical aggregation Adaboost algorithm with haar radical stump and ADMM with L2,1-norm Based Regression.
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: <li> I propose a Radical Object Recognition method through the Haar-radical stump method that is optimized for the reconstruction structure of Chinese characters using the Adaboost algorithm. The proposed boosting algorithm is a single powerful classifier in adjunct units. The final classifier of Boogan was produced by adding weak classifiers considering the haar stump, scale and coordinates of Haar-radical stump. In order to accurately identify the incident, three haar filters were devised according to the threshold used when calculating the haar feature. They are trained by a weak classifier and each weak classifier is trained using a random subset of the entire training set. Each training item is weighted through adaboost. Misclassified items are assigned a higher weight so that they appear stochastic in the next set of training classes. After each classifier is trained, weights are assigned to the classifiers according to their accuracy. The more accurate classifiers assign higher weights to have more influence on the final result. In addition, this process is repeated to create and detect a strong classifier for each incident. This study aims to show that it can be used for handwritten Chinese character recognition and detection algorithms using powerful detectors. </li> <br>
+
+- name: Making an English parrot application.
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: <li> Releasing an application that implements parrot function that imitates the Korean language spoken by my child in English and chatbot function that answers questions in English when the child asks in Korean.(Android studio)  </li> <br>
+
+
+
