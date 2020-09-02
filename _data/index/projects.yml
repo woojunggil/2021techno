@@ -51,14 +51,14 @@
   i18n: google
   url: https://google.com
   img: /static/assets/img/landing/pro7.png
-  desc:  <li> Using POS Tagging for nouns that indicate cause of concern, adjectives that indicate emotion, and verbs that indicate behavior and stemmings. And I made my own stopword dictionary removed the stopwords. In order to make the chatbot recognize the category of concern and provide the right comfort, 39 categories were classified, and important words were extracted for each category by calculating tf-idf. Making the chatbot application that recognizes the category of concern and comforts by Android studio. </li> <br> <br>
+  desc:  <li> Using POS Tagging for nouns that indicate cause of concern, adjectives that indicate emotion, and verbs that indicate behavior and stemmings. And I made my own stopword dictionary removed the stopwords. In order to make the chatbot recognize the category of concern and provide the right comfort, 39 categories were classified, and important words were extracted for each category by calculating tf-idf. Making the chatbot application that recognizes the category of concern and comforts by Android studio. </li>
 
 - name: Estimation of Lifetime Distribution of Conveyor Belt in Optimized and Unoptimized System
   i18n: google
   url: https://google.com
   img: /static/assets/img/landing/pro8.png
   desc: <li>  I added data on the left censoring data for the time being turned into a failure and added right censoring data when normal. Then I made my own algorithm to restart at the beginning of a new cycle and create censoring data.  </li> <br>
-        <li> Assuming the exponential distribution, wibble distribution, and algebraic normal distribution as life distribution and estimating the parameter by maximum likehood estimations. And I compared which was suitable by AIC and BIC. This was done with the optimized conveyor belt and the unoptimized conveyor belt respectively. I analysis by making code log-likelihood function directly and ftdistcens, ftdistrplus package.  </li> <br>
+        <li> Assuming the exponential distribution, wibble distribution, and algebraic normal distribution as life distribution and estimating the parameter by maximum likehood estimations. And I compared which was suitable by AIC and BIC. This was done with the optimized conveyor belt and the unoptimized conveyor belt respectively. I analysis by making code log-likelihood function directly and ftdistcens, ftdistrplus package.  </li> <br> <br> <br> <br> <br>
 
 - name: A study on the method of recognition unseen handwritten chinese character using detecting radical aggregation Adaboost algorithm with haar radical stump and ADMM with L2,1-norm Based Regression.
   i18n: google
