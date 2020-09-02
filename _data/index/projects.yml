@@ -1,19 +1,6 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Analyzing and Predicting the correct answer rate of Korean scholastic ability test with problem criteria
-  i18n: jalpc
-  url: https://google.com
-  img: /static/assets/img/landing/pro1.png
-  desc: <li> Collecting the data of the problem type, the number of sentences, the number of words, the number of letters, linkage of EBS, contents, unit, and detail unit from the test paper of the Korean College Scholastic Ability Test </li> <br>
-        <li> Making a multiple regression analysis model to analyze important factors related to the correct answer rate and to predict the correct answer rate.
-
-- name: Probability Statistics Study on Factors Affecting Car Sales
-  i18n: cpython
-  url: https://google.com
-  img: /static/assets/img/landing/pro2.png
-  desc: <li> Collecting the data of price, displacement, fuel efficiency, fuel type, quality assurance, parking aid functions, driving safety functions, static driving functions, seat materials, air conditioning, room mirror and headlamps on several cars. </li> <br>
-        <li> Using Random Forest method and create good trees with hyperparameter tuning and predict sales for new cars with Python <br> <br> <br>
 
 
 - name: A Study on the Graph-Based Problem Solving Method to Find the Optimal Route in the Delivery System
@@ -72,5 +59,18 @@
   img: /static/assets/img/landing/pro10.png
   desc: <li> Releasing an application that implements parrot function that imitates the Korean language spoken by my child in English and chatbot function that answers questions in English when the child asks in Korean.(Android studio)  </li> <br>
 
+- name: Analyzing and Predicting the correct answer rate of Korean scholastic ability test with problem criteria
+  i18n: jalpc
+  url: https://google.com
+  img: /static/assets/img/landing/pro1.png
+  desc: <li> Collecting the data of the problem type, the number of sentences, the number of words, the number of letters, linkage of EBS, contents, unit, and detail unit from the test paper of the Korean College Scholastic Ability Test </li> <br>
+        <li> Making a multiple regression analysis model to analyze important factors related to the correct answer rate and to predict the correct answer rate.
+
+- name: Probability Statistics Study on Factors Affecting Car Sales
+  i18n: cpython
+  url: https://google.com
+  img: /static/assets/img/landing/pro2.png
+  desc: <li> Collecting the data of price, displacement, fuel efficiency, fuel type, quality assurance, parking aid functions, driving safety functions, static driving functions, seat materials, air conditioning, room mirror and headlamps on several cars. </li> <br>
+        <li> Using Random Forest method and create good trees with hyperparameter tuning and predict sales for new cars with Python <br> <br> <br>
 
 
