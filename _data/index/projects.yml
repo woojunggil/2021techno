@@ -24,12 +24,12 @@
         <li>  The weight is calculated by the average speed with the traffic situation (traffic congestion, crawling, smooth) for each route, fuel consumption weight considering the package weight, and the right turn over the left turn (right turn does not stop at red light. The weight was calculated by considering the reduction effect.). </li> <br>
         <li> Applying Kruskal algorithm and multi-extra algorithm, prim method, and Floyd method with considering the weight to code. </li> <br>
 
-- name: Big Data mining for detecting causes of errors in High Rack Storage System (HRSS)
+- name: <br> Big Data mining for detecting causes of errors in High Rack Storage System (HRSS)
   i18n: google
   url: https://google.com
   img: /static/assets/img/landing/pro4.png
-  desc: <li>  Decision trees and artificial neural networks were used to predict failures and explore defective conveyors using voltage, power and distance data obtained from each part of the conveyor belt. </li> <br>
-        <li>  Making process cycle data assuming zero distance data is the beginning of a cycle and using oversampling methods for the data imbalance that the failure data are much fewer than the success data </li> <br>
+  desc:  <br> <li>  Decision trees and artificial neural networks were used to predict failures and explore defective conveyors using voltage, power and distance data obtained from each part of the conveyor belt. </li> <br>
+        <li>  Making process cycle data assuming zero distance data is the beginning of a cycle and using oversampling methods for the data imbalance that the failure data are much fewer than the success data </li> <br>  <br> <br> <br>
 
 
 - name: Concrete compressive strength regression analysis
