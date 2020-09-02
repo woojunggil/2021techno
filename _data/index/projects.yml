@@ -4,7 +4,7 @@
 - name: Analyzing and Predicting the correct answer rate of Korean scholastic ability test with problem criteria
   i18n: jalpc
   url: https://google.com
-  img: /static/assets/img/landing/jekyll.png
+  img: /static/assets/img/landing/pro1.png
   desc: <li> Collecting the data of the problem type, the number of sentences, the number of words, the number of letters, linkage of EBS, contents, unit, and detail unit from the test paper of the Korean College Scholastic Ability Test </li> <br>
         <li> Making a multiple regression analysis model to analyze important factors related to the correct answer rate and to predict the correct answer rate.
 
