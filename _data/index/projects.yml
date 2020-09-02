@@ -19,7 +19,7 @@
 - name: A Study on the Graph-Based Problem Solving Method to Find the Optimal Route in the Delivery System
   i18n: google
   url: https://google.com
-  img: /static/assets/img/landing/pro3.png
+  img: /static/assets/img/landing/pro33.png
   desc: <li>  Pointing out the problem of the methodology for shipping routes from sub-terminal to each shipping destination and experimenting with the problem-solving method to minimize the total operating cost of the system for shipping multiple vehicles in a certain area. </li> <br>
         <li>  The weight is calculated by the average speed with the traffic situation (traffic congestion, crawling, smooth) for each route, fuel consumption weight considering the package weight, and the right turn over the left turn (right turn does not stop at red light. The weight was calculated by considering the reduction effect.). </li> <br>
         <li> Applying Kruskal algorithm and multi-extra algorithm, prim method, and Floyd method with considering the weight to code. </li> <br>
