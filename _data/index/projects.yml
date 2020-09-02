@@ -6,14 +6,14 @@
   url: https://google.com
   img: /static/assets/img/landing/jekyll.png
   desc: <li> Collecting the data of the problem type, the number of sentences, the number of words, the number of letters, linkage of EBS, contents, unit, and detail unit from the test paper of the Korean College Scholastic Ability Test </li> <br>
-<li> Making a multiple regression analysis model to analyze important factors related to the correct answer rate and to predict the correct answer rate.
+        <li> Making a multiple regression analysis model to analyze important factors related to the correct answer rate and to predict the correct answer rate.
 
 - name: Probability Statistics Study on Factors Affecting Car Sales
   i18n: cpython
   url: https://google.com
   img: /static/assets/img/landing/python.png
   desc: <li> Collecting the data of price, displacement, fuel efficiency, fuel type, quality assurance, parking aid functions, driving safety functions, static driving functions, seat materials, air conditioning, room mirror and headlamps on several cars. </li> <br>
-<li> Using Random Forest method and create good trees with hyperparameter tuning and predict sales for new cars with Python
+        <li> Using Random Forest method and create good trees with hyperparameter tuning and predict sales for new cars with Python
 
 
 - name: A Study on the Graph-Based Problem Solving Method to Find the Optimal Route in the Delivery System
