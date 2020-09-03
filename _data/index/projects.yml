@@ -3,27 +3,12 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
 
-- name: A Study on the Graph-Based Problem Solving Method to Find the Optimal Route in the Delivery System
+- name: A study on the method of recognition unseen handwritten chinese character using detecting radical aggregation Adaboost algorithm with haar radical stump and ADMM with L2,1-norm Based Regression.
   i18n: google
   url: https://google.com
-  img: /static/assets/img/landing/pro33.png
-  desc: <li>  Pointing out the problem of the methodology for shipping routes from sub-terminal to each shipping destination and experimenting with the problem-solving method to minimize the total operating cost of the system for shipping multiple vehicles in a certain area. </li> <br>
-        <li>  The weight is calculated by the average speed with the traffic situation (traffic congestion, crawling, smooth) for each route, fuel consumption weight considering the package weight, and the right turn over the left turn (right turn does not stop at red light. The weight was calculated by considering the reduction effect.). </li> <br>
-        <li> Applying Kruskal algorithm and multi-extra algorithm, prim method, and Floyd method with considering the weight to code. </li> <br>
+  img: /static/assets/img/landing/pro9.png
+  desc: <li> I propose a Radical Object Recognition method through the Haar-radical stump method that is optimized for the reconstruction structure of Chinese characters using the Adaboost algorithm. The proposed boosting algorithm is a single powerful classifier in adjunct units. The final classifier of Boogan was produced by adding weak classifiers considering the haar stump, scale and coordinates of Haar-radical stump. In order to accurately identify the incident, three haar filters were devised according to the threshold used when calculating the haar feature. They are trained by a weak classifier and each weak classifier is trained using a random subset of the entire training set. Each training item is weighted through adaboost. Misclassified items are assigned a higher weight so that they appear stochastic in the next set of training classes. After each classifier is trained, weights are assigned to the classifiers according to their accuracy. The more accurate classifiers assign higher weights to have more influence on the final result. In addition, this process is repeated to create and detect a strong classifier for each incident. This study aims to show that it can be used for handwritten Chinese character recognition and detection algorithms using powerful detectors. </li> <br>
 
-- name: <br> Big Data mining for detecting causes of errors in High Rack Storage System (HRSS)
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/pro4.png
-  desc:  <br> <li>  Decision trees and artificial neural networks were used to predict failures and explore defective conveyors using voltage, power and distance data obtained from each part of the conveyor belt. </li> <br>
-        <li>  Making process cycle data assuming zero distance data is the beginning of a cycle and using oversampling methods for the data imbalance that the failure data are much fewer than the success data </li> <br>  <br> <br> <br>
-
-
-- name: Concrete compressive strength regression analysis
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/pro5.png
-  desc: <li>  Most of the cracks are caused by the material properties of concrete that is used by mixing cement, water and aggregate, but the standard for the cement mixing ratio is not clear in the construction standards. So, I used Cement, Blast Furnace Slag, Fly Ash, Water, Superplasticizer, Coarse Aggregate, Fine Aggregate, hardening time data as independent variables and concrete compressive strength as dependent variables to use regression analysis. And I checked the assumptions of normality, Independence of errors, homoscedasticity, and absence of multicollinearity. </li> <br>
 
 - name: Developing delivery agency web service '배달의 한양' using Python Flask and MySQL.
   i18n: google
@@ -33,6 +18,29 @@
         <li>  When the users log in, the pages appear depending on whether the person is the seller, the buyer, or the delivery man. Sellers can see the store information, menu information, the number of orders, buyer contact, order time and payment method. And sellers can change, add, and delete the menu name and price. The page that assigns current order to a delivery man who satisfied deliverable status and region. There are also pages to cancel the purchase.  </li> <br>
         <li>  Buyers can search for the store by region or name on the purchase screen. And buyers can add to cart and buy. Buyers can check the total number of menus, payment method, order time, and delivery completion on the order screen. </li> <br>
         <li>  Delivery men can update delivery completion. All users can change their information. </li> <br>
+
+- name: <br> Big Data mining for detecting causes of errors in High Rack Storage System (HRSS)
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/pro4.png
+  desc:  <br> <li>  Decision trees and artificial neural networks were used to predict failures and explore defective conveyors using voltage, power and distance data obtained from each part of the conveyor belt. </li> <br>
+        <li>  Making process cycle data assuming zero distance data is the beginning of a cycle and using oversampling methods for the data imbalance that the failure data are much fewer than the success data </li> <br>  <br> <br> <br>
+
+
+- name: A Study on the Graph-Based Problem Solving Method to Find the Optimal Route in the Delivery System
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/pro33.png
+  desc: <li>  Pointing out the problem of the methodology for shipping routes from sub-terminal to each shipping destination and experimenting with the problem-solving method to minimize the total operating cost of the system for shipping multiple vehicles in a certain area. </li> <br>
+        <li>  The weight is calculated by the average speed with the traffic situation (traffic congestion, crawling, smooth) for each route, fuel consumption weight considering the package weight, and the right turn over the left turn (right turn does not stop at red light. The weight was calculated by considering the reduction effect.). </li> <br>
+        <li> Applying Kruskal algorithm and multi-extra algorithm, prim method, and Floyd method with considering the weight to code. </li> <br>
+
+
+- name: Concrete compressive strength regression analysis
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/pro5.png
+  desc: <li>  Most of the cracks are caused by the material properties of concrete that is used by mixing cement, water and aggregate, but the standard for the cement mixing ratio is not clear in the construction standards. So, I used Cement, Blast Furnace Slag, Fly Ash, Water, Superplasticizer, Coarse Aggregate, Fine Aggregate, hardening time data as independent variables and concrete compressive strength as dependent variables to use regression analysis. And I checked the assumptions of normality, Independence of errors, homoscedasticity, and absence of multicollinearity. </li> <br>
 
 - name: Making a comfort chatbot android application using text mining.
   i18n: google
@@ -47,11 +55,6 @@
   desc: <li>  I added data on the left censoring data for the time being turned into a failure and added right censoring data when normal. Then I made my own algorithm to restart at the beginning of a new cycle and create censoring data.  </li> <br>
         <li> Assuming the exponential distribution, wibble distribution, and algebraic normal distribution as life distribution and estimating the parameter by maximum likehood estimations. And I compared which was suitable by AIC and BIC. This was done with the optimized conveyor belt and the unoptimized conveyor belt respectively. I analysis by making code log-likelihood function directly and ftdistcens, ftdistrplus package.  </li> <br> <br> <br> <br> <br>
 
-- name: A study on the method of recognition unseen handwritten chinese character using detecting radical aggregation Adaboost algorithm with haar radical stump and ADMM with L2,1-norm Based Regression.
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/pro9.png
-  desc: <li> I propose a Radical Object Recognition method through the Haar-radical stump method that is optimized for the reconstruction structure of Chinese characters using the Adaboost algorithm. The proposed boosting algorithm is a single powerful classifier in adjunct units. The final classifier of Boogan was produced by adding weak classifiers considering the haar stump, scale and coordinates of Haar-radical stump. In order to accurately identify the incident, three haar filters were devised according to the threshold used when calculating the haar feature. They are trained by a weak classifier and each weak classifier is trained using a random subset of the entire training set. Each training item is weighted through adaboost. Misclassified items are assigned a higher weight so that they appear stochastic in the next set of training classes. After each classifier is trained, weights are assigned to the classifiers according to their accuracy. The more accurate classifiers assign higher weights to have more influence on the final result. In addition, this process is repeated to create and detect a strong classifier for each incident. This study aims to show that it can be used for handwritten Chinese character recognition and detection algorithms using powerful detectors. </li> <br>
 
 - name: Making an English parrot application.
   i18n: google
