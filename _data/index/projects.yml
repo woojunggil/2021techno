@@ -53,7 +53,7 @@
   url: https://google.com
   img: /static/assets/img/landing/pro8.png
   desc: <li>  I added data on the left censoring data for the time being turned into a failure and added right censoring data when normal. Then I made my own algorithm to restart at the beginning of a new cycle and create censoring data.  </li> <br>
-        <li> Assuming the exponential distribution, wibble distribution, and algebraic normal distribution as life distribution and estimating the parameter by maximum likehood estimations. And I compared which was suitable by AIC and BIC. This was done with the optimized conveyor belt and the unoptimized conveyor belt respectively. I analysis by making code log-likelihood function directly and ftdistcens, ftdistrplus package.  </li> <br> <br> <br> <br> <br>
+        <li> Assuming the exponential distribution, wibble distribution, and algebraic normal distribution as life distribution and estimating the parameter by maximum likehood estimations. And I compared which was suitable by AIC and BIC. This was done with the optimized conveyor belt and the unoptimized conveyor belt respectively. I analysis by making code log-likelihood function directly and ftdistcens, ftdistrplus package.  </li> <br>
 
 
 - name: Making an English parrot application.
