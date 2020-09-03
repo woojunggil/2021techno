@@ -60,7 +60,7 @@
   i18n: google
   url: https://google.com
   img: /static/assets/img/landing/pro10.png
-  desc: <li> Releasing an application that implements parrot function that imitates the Korean language spoken by my child in English and chatbot function that answers questions in English when the child asks in Korean.(Android studio)  </li> <br>
+  desc: <li> Releasing an application that implements parrot function that imitates the Korean language spoken by my child in English and chatbot function that answers questions in English when the child asks in Korean.(Android studio)  </li> <br> <br>
 
 - name: Analyzing and Predicting the correct answer rate of Korean scholastic ability test with problem criteria
   i18n: jalpc
